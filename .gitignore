@@ -1,0 +1,41 @@
+# .NET build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.log
+*.pdb
+*.cache
+*.db
+*.TestResults/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# NuGet packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# NPM Packages
+node_modules/
+
+# Others
+*.vspscc
+*.vssscc
