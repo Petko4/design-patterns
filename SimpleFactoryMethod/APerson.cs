@@ -1,4 +1,4 @@
-abstract public class APerson
+public abstract class APerson
 {
     private static int index = 0;
 
@@ -13,10 +13,10 @@ abstract public class APerson
         };
     }
 
-    abstract public void WakeUp();
-    abstract public void Work();
-    abstract public void FreeTime();
-    abstract public void Sleep();
+    public abstract void WakeUp();
+    public abstract void Work();
+    public abstract void FreeTime();
+    public abstract void Sleep();
 
     private class LazyPerson : APerson
     {
