@@ -1,8 +1,8 @@
 // Represents an immutable fraction (rational number) with integer nominator and denominator.
 public class Fraction
 {
-    private final int nominator;
-    private final int denominator;
+    private readonly int nominator;
+    private readonly int denominator;
 
     // Constructs a fraction from a nominator and denominator. Throws ArgumentException if denominator is zero.
     public Fraction(int nominator, int denominator)
